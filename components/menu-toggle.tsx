@@ -12,7 +12,12 @@ const Path = (props: SVGMotionProps<SVGPathElement>) => (
   />
 );
 
-export const MenuToggle = ({ toggle }) => (
+
+interface MenuToggleProps {
+  toggle: () => void;
+}
+
+export const MenuToggle = ({ toggle }: MenuToggleProps) => (
   <button onClick={toggle}>
     <svg width="23" height="23" viewBox="0 0 23 23">
       <Path
