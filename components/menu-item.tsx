@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-
+import Link from 'next/link';
 const variants = {
   open: {
     y: 0,
@@ -19,6 +19,9 @@ const variants = {
 };
 
 const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
+const ref = ['/', '/about', '/projects', '/contact', '/blog'];
+const name = ['Home', 'Services', 'Projects', 'Company', 'Contact Us'];
+
 
 interface MenuItemProps {
   i: number;
@@ -32,8 +35,9 @@ export const MenuItem = ({ i }: MenuItemProps) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className="icon-placeholder" style={style} >Home</div>
-      <div className="text-placeholder" style={style} />
+      <Link className='rounded-2xl px-4' href={ref[i]} style={style}>
+        {name[i]}
+      </Link>
     </motion.li>
   );
 };
