@@ -6,7 +6,6 @@ import { Icons } from "@/components/ui/icons"
 import { Phone } from 'lucide-react';
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { Menu } from "@/components/menu"
 
 export function SiteHeader() {
   return (
@@ -21,7 +20,6 @@ export function SiteHeader() {
             <ThemeToggle />
           </nav>
         </div>
-        <Menu />
       </div>
     </header>
   )

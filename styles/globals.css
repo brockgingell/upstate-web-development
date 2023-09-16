@@ -77,42 +77,5 @@
   body {
       @apply bg-background text-foreground;
       font-feature-settings: "rlig" 1, "calt" 1;
-    background: background(180deg, #0055ff 0%, rgb(0, 153, 255) 100%);
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    width: full;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-
-nav {
-  position: absolute;
-  top: 0;
-  right: 10px;
-  width: 100%;
-
-}
-li{
-  margin: 0px 10px;
-  background: #fff;
-}
-
-.background {
-  position: realtive;
-  width: 100%;
-}
-
-button {
-  outline: none;
-  border: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  cursor: pointer;
-  position: absolute;
-  top: 24px;
-  right: 0px;
-}
 }
