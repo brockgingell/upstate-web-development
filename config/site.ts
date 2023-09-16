@@ -10,7 +10,7 @@ export const siteConfig = {
     },
     {
       title: "Services",
-      href: "/",
+      href: "/services",
     },
     {
       title: "Projects",
@@ -18,7 +18,7 @@ export const siteConfig = {
     },
     {
       title: "About Us",
-      href: "/",
+      href: "/company",
     },
   ],
   links: {
