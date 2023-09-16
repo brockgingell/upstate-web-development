@@ -18,7 +18,7 @@ export function MainNav({ items }: MainNavProps) {
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center dark:flex">
         <Image src={iconwhite} alt="icon" className="p-2"/>
-        <span className="inline-block font-mono font-bold">Upstate Web <br/> Development</span>
+        <span className="inline-block font-mono font-bold leading-5">Upstate <br/> Deisgn & <br/> Development</span>
       </Link>
       <Link href="/" className="flex items-center dark:hidden">
         <Image src={iconblack} alt="icon" className="p-2"/>
