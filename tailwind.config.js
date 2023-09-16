@@ -5,6 +5,17 @@ module.exports = {
   darkMode: ["class"],
   content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
   theme: {
+    screens: {
+      'mini': "260px",
+      'mobile': "320px",
+      'tablet': "400px",
+      'xs': "640px",
+      'sm': "768px",
+      'md': "960px",
+      'lg': "1024px",
+      'xl': "1440px",
+      '2xl': "1536px",
+    },
     container: {
       center: true,
       padding: "2rem",
