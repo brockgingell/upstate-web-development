@@ -17,12 +17,12 @@ export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center gap-[3px] dark:flex">
-        <Image src={iconwhite} alt="icon" className=""/>
-        <span className="inline-block font-bold leading-5">Upstate <br/> Deisgn & <br/> Development</span>
+        <Image src={iconwhite} alt="icon" className="w-[64px]"/>
+        <span className="inline-block text-sm font-bold leading-4">Upstate <br/> Deisgn & <br/> Development</span>
       </Link>
       <Link href="/" className="flex items-center gap-[3px] dark:hidden">
-        <Image src={iconblack} alt="icon" className=""/>
-        <span className="inline-block font-bold leading-5">Upstate <br/> Deisgn & <br/> Development</span>
+        <Image src={iconblack} alt="icon" className="w-[64px]"/>
+        <span className="inline-block text-sm font-bold leading-4">Upstate <br/> Deisgn & <br/> Development</span>
       </Link>
       {items?.length ? (
         <nav className="hidden gap-6 xs:flex">
