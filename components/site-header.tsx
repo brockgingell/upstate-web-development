@@ -3,7 +3,7 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { Button, buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/ui/icons"
-import { Phone } from 'lucide-react';
+import { Phone, Menu } from 'lucide-react';
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 
@@ -19,6 +19,7 @@ export function SiteHeader() {
             </Link>
             <ThemeToggle />
           </nav>
+          <Menu/>
         </div>
       </div>
     </header>
