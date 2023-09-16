@@ -25,7 +25,7 @@ export function MainNav({ items }: MainNavProps) {
         <span className="inline-block font-mono font-bold">Upstate Web <br/> Development</span>
       </Link>
       {items?.length ? (
-        <nav className="hidden xs:flex gap-6">
+        <nav className="hidden gap-6 xs:flex">
           {items?.map(
             (item, index) =>
               item.href && (
