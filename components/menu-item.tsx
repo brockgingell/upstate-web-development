@@ -35,7 +35,7 @@ export const MenuItem = ({ i }: MenuItemProps) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <Link className='rounded-2xl px-4' href={ref[i]} style={style}>
+      <Link className='rounded-2xl px-4 text-current' href={ref[i]} style={style}>
         {name[i]}
       </Link>
     </motion.li>
