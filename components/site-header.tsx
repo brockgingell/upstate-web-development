@@ -24,13 +24,13 @@ export function SiteHeader() {
       : 
       <div className="fixed top-0 z-40 flex h-16 w-screen flex-row items-center justify-between border-b-2 bg-background px-2">
         <NavLogo />
-        <div className="hidden flex-row items-center sm:flex justify-start">
+        <div className="hidden flex-row items-center justify-start sm:flex">
           <NavLinks items={siteConfig.mainNav} />
         </div>
         <div className="absolute right-2 z-50 flex sm:relative">
         <NavButtons />
           <button className="sm:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <MenuIcon className="h-8 w-8 p-[1px]"/>
+            <MenuIcon className="h-10 w-10 p-2"/>
           </button>
         </div>
       </div>
