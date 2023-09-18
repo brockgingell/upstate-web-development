@@ -6,13 +6,13 @@ import { Icons } from "@/components/ui/icons"
 import { Phone, Menu } from 'lucide-react';
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
-import NavIcon from "@/components/navicon"
+import NavLogo from "@/components/navlogo"
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background ">
       <div className="flex h-16 items-center justify-between space-x-0">
-        <NavIcon />
+        <NavLogo />
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-[3px]">
           <nav className="hidden items-center space-x-[3px] mobile:flex">
