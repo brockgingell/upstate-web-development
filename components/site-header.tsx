@@ -11,7 +11,7 @@ import NavLogo from "@/components/navlogo"
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background ">
-      <div className="flex h-16 items-center justify-between space-x-0">
+      <div className="mx-2 flex h-16 items-center justify-between space-x-0">
         <NavLogo />
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-[3px]">
