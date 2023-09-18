@@ -30,7 +30,7 @@ export function SiteHeader() {
         <div className="absolute right-2 z-50 flex sm:relative">
         <NavButtons />
           <button className="sm:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <MenuIcon className="ml-[1px] h-10 w-10 p-1"/>
+            <MenuIcon className="ml-[1px] h-10 w-10 p-1 text-foreground"/>
           </button>
         </div>
       </div>
