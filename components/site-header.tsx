@@ -12,25 +12,25 @@ export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   return (
     <header> {isMenuOpen ? 
-      <div className="fixed top-0 z-40 mt-2 flex min-h-screen w-screen flex-col items-center border-b bg-background">
+      <div className="fixed top-0 z-40 mt-2 flex min-h-screen w-screen flex-col border-b bg-background px-2">
         <NavLogo />
-        <div className="absolute right-0 top-0 z-50 mr-2 flex flex-row items-center p-1" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          <XIcon/>
+        <div className="absolute right-2 top-2 z-50" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <XIcon className="h-8 w-8 p-[1px]"/>
         </div>
         <button onClick={() => {setTimeout(() => {setIsMenuOpen(false);}, 500);}}>
           <MobileNavLinks items={siteConfig.mainNav} />
         </button>
       </div>
       : 
-      <div className="fixed top-0 z-40 flex h-16 w-full flex-row items-center justify-between border-b-2 bg-background px-2 md:h-[72px] lg:h-20">
+      <div className="fixed top-0 z-40 flex h-16 w-screen flex-row items-center justify-between border-b-2 bg-background px-2">
         <NavLogo />
         <div className="hidden flex-row items-center md:flex">
           <NavLinks items={siteConfig.mainNav} />
         </div>
-        <div className="absolute right-0 top-0 z-50 mr-2 mt-2 flex flex-row items-center">
+        <div className="absolute right-2 z-50 flex">
         <NavButtons />
           <button className="" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <MenuIcon/>
+            <MenuIcon className="h-8 w-8 p-[1px]"/>
           </button>
         </div>
       </div>
