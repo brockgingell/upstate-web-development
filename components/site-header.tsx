@@ -27,7 +27,7 @@ export function SiteHeader() {
         <div className="hidden flex-row items-center sm:flex justify-start">
           <NavLinks items={siteConfig.mainNav} />
         </div>
-        <div className="absolute right-2 z-50 flex">
+        <div className="absolute right-2 z-50 flex sm:relative">
         <NavButtons />
           <button className="sm:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <MenuIcon className="h-8 w-8 p-[1px]"/>
