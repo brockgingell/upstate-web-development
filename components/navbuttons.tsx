@@ -10,7 +10,6 @@ import { siteConfig } from "@/config/site"
 export default function NavButtons() {
   return (
       <div className="flex items-center">
-        <ThemeToggle />
         <Link href={siteConfig.links.instagram} target="_blank" rel="noreferrer">
           <div className={buttonVariants({variant: "ghost",})}>
             <Icons.instagram />
@@ -23,6 +22,7 @@ export default function NavButtons() {
             <span className="sr-only">Twitter</span>
           </div>
         </Link>
+        <ThemeToggle />
       </div>
   )
 }
