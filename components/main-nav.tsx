@@ -20,17 +20,9 @@ interface MainNavProps {
 export function MainNav({ items }: MainNavProps) {
   const path = usePathname()
   return (
-    <div className="flex gap-6 md:gap-10">
-      <Link href="/" className="hidden items-center gap-[3px] dark:flex">
-        <Image src={iconwhite} alt="icon" className="w-[64px]"/>
-        <span className="inline-block text-sm font-bold leading-4">Upstate Web <br/> Development</span>
-      </Link>
-      <Link href="/" className="flex items-center gap-[3px] dark:hidden">
-        <Image src={iconblack} alt="icon" className="w-[64px]"/>
-        <span className="inline-block text-sm font-bold leading-4">Upstate Web <br/> Development</span>
-      </Link>
+    <>
       {items?.length ? (
-        <nav className="hidden gap-6 xs:flex">
+        <nav className="hidden gap-3 sm:flex">
           {items?.map(
             (item, index) =>
               item.href && (
@@ -39,7 +31,7 @@ export function MainNav({ items }: MainNavProps) {
                     key={index}
                     href={item.href}
                     className={cn(
-                      "flex items-center text-sm font-medium text-muted-foreground",
+                      "flex items-center text-sm font-medium text-foreground",
                       item.disabled && "cursor-not-allowed opacity-80"
                     )}
                   >
@@ -49,7 +41,7 @@ export function MainNav({ items }: MainNavProps) {
               )
           )}
         </nav>
-      ) : null}
-    </div>
+      ):null}
+    </>
   )
 }

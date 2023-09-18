@@ -6,19 +6,21 @@ import { Icons } from "@/components/ui/icons"
 import { Phone, Menu } from 'lucide-react';
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
+import NavIcon from "@/components/navicon"
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background px-2">
-      <div className="flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+    <header className="sticky top-0 z-40 w-full border-b bg-background ">
+      <div className="flex h-16 items-center justify-between space-x-0">
+        <NavIcon />
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-[3px]">
           <nav className="hidden items-center space-x-[3px] mobile:flex">
             <Link href={siteConfig.mainNav[1].href} className={`hidden mobile:flex ${buttonVariants({variant: "outline"})}`}>
-              <Phone className="h-4 w-4 stroke-current"/> <span className="ml-1 text-xs">Contact Us</span>
+              <Phone className="h-[20px] w-[20px] stroke-current"/> <span className="ml-1">Contact Us</span>
             </Link>
-            <ThemeToggle />
           </nav>
+          <ThemeToggle />
           <div className="sm:hidden">
             <Menu/>
           </div>
