@@ -12,28 +12,32 @@ export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   return (
     <header> {isMenuOpen ? 
-      <div className="fixed top-0 z-40 mt-2 flex min-h-screen w-screen flex-col border-b bg-background px-2">
-        <NavLogo />
-        <div className="absolute right-2 top-2 z-50" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          <XIcon className="h-8 w-8 p-[1px]"/>
+      <>
+        <div className="fixed top-0 isolate z-40 mt-2 flex min-h-screen w-screen flex-col bg-background px-2">
+          <NavLogo />
+          <div className="absolute right-2 top-2 z-50" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <XIcon className="h-8 w-8 p-[1px]"/>
+          </div>
         </div>
-        <button onClick={() => {setTimeout(() => {setIsMenuOpen(false);}, 500);}}>
+        <button className='relative z-40 mt-16 border-t-2' onClick={() => setIsMenuOpen(false)}>
           <MobileNavLinks items={siteConfig.mainNav} />
         </button>
-      </div>
-      : 
-      <div className="fixed top-0 z-40 flex h-16 w-screen flex-row items-center justify-between border-b-2 bg-background px-2">
-        <NavLogo />
-        <div className="hidden flex-row items-center justify-start sm:flex">
-          <NavLinks items={siteConfig.mainNav} />
+      </>
+      :
+      <>
+        <div className="fixed top-0 z-40 flex h-16 w-screen flex-row items-center justify-between border-b-2 bg-background px-2">
+          <NavLogo />
+          <div className="hidden flex-row items-center justify-center xs:flex">
+            <NavLinks items={siteConfig.mainNav} />
+          </div>
+          <div className="absolute right-2 z-50 flex xs:relative">
+          <NavButtons />
+            <button className="xs:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <MenuIcon className="ml-[1px] h-10 w-10 p-1 text-foreground"/>
+            </button>
+          </div>
         </div>
-        <div className="absolute right-2 z-50 flex sm:relative">
-        <NavButtons />
-          <button className="sm:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <MenuIcon className="ml-[1px] h-10 w-10 p-1 text-foreground"/>
-          </button>
-        </div>
-      </div>
+      </>
       }
     </header>
   )
