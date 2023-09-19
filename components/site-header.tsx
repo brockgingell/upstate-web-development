@@ -13,7 +13,7 @@ export function SiteHeader() {
   return (
     <header> {isMenuOpen ? 
       <>
-        <div className="fixed top-0 z-50 flex w-screen flex-col border-b-2 bg-background mx-1">
+        <div className="fixed top-0 z-50 mx-1 flex w-screen flex-col border-b-2 bg-background">
           <div className="relative top-0 flex h-[70px] items-center justify-start">
             <NavLogo />
           </div>
@@ -27,7 +27,7 @@ export function SiteHeader() {
       </>
       :
       <>
-        <div className="fixed top-0 z-50 flex h-[70px] w-screen flex-row items-center justify-between border-b-2 bg-background mx-1">
+        <div className="fixed top-0 z-50 mx-1 flex h-[70px] w-screen flex-row items-center justify-between border-b-2 bg-background">
           <NavLogo />
           <div className="hidden flex-row items-center justify-center xs:flex">
             <NavLinks items={siteConfig.mainNav} />
