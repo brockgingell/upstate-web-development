@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import iconblack from "@/public/finaliconblack.svg"
-import iconwhite from "@/public/finaliconwhite.svg"
+import iconblack from "@/public/IconBlack.svg"
+import iconwhite from "@/public/IconWhite.svg"
 
 export default function NavLogo() {
   return (
