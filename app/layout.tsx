@@ -36,7 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <link rel="shortcut icon" href="/public/favicon.ico"/>
           <meta name="msapplication-TileColor" content="#ffc40d"/>
           <meta name="msapplication-config" content="/public/browserconfig.xml"/>
-          <meta name="theme-color" content="#e4a20b"/>
+          <meta name="theme-color" content="#000000"/>
         </head>
         <body
           className={cn(
