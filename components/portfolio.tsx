@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="relative isolate px-6">
         <div className="flex h-screen flex-col justify-center text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Services Page - Coming Soon
+            Projects Page - Coming Soon
           </h2>
         </div>
       </div>

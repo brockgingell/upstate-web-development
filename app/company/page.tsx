@@ -1,9 +1,9 @@
 import Hero from "@/components/company"
 
 export default function IndexPage() {
-	return (
+  return (
     <>
-        <Hero />
+      <Hero />
     </>
-	)
+  )
 }
