@@ -8,9 +8,8 @@ import { motion } from "framer-motion"
 export default function Hero() {
   return (
     <div className="mt-20 flex w-full justify-center overflow-hidden">
-      <video autoPlay={true} loop muted className="z-[-1] h-[500px] w-full object-cover">
-        <source src="../../public/techbackground.mov" type="video/mov">
-        </source>
+      <video width='full' height='500' controls className="z-[-1] h-[500px] w-full object-cover">
+        <source src="../../public/techbackground.mov" type="video/mov"/>
       </video>
       <div className="absolute top-0 h-full w-full bg-background opacity-60 dark:opacity-40"></div>
       <div className="absolute top-20 mx-4 mt-4 flex flex-col items-center p-2 xs:mx-6 sm:mx-10 md:mx-14 lg:max-w-[66%]">
