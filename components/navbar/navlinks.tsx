@@ -13,14 +13,14 @@ export default function NavLinks({ items }: MainNavProps) {
   return (
     <div className="flex">
       {items?.length ? (
-        <nav className="flex gap-3 md:gap-5 lg:gap-6"> 
+        <nav className="flex gap-3 sm:gap-5 lg:gap-8"> 
           {items?.map((item, index) => item.href && (
             <motion.div key={index} className='self-center' whileHover={{scale: 1.1}}>
               <Link
                 key={index}
                 href={item.href}
                 className={cn(
-                  "flex items-center text-sm font-medium text-muted-foreground",
+                  "flex items-center text-sm font-medium text-muted-foreground sm:text-base md:text-lg lg:text-xl",
                   item.disabled && "cursor-not-allowed opacity-80"
                 )}
               >
