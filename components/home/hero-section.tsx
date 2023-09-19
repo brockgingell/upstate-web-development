@@ -5,7 +5,7 @@ import { buttonVariants } from '@/components/ui/button'
 
 export default function Hero() {
     return (
-      <div className="realtive isolate flex min-h-screen items-center">
+      <div className="realtive isolate flex min-h-screen items-center justify-center">
         <div className="flex flex-col justify-center text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Elevate Your Local Business with the Premium Website it Deserves
