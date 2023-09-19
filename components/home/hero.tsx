@@ -8,8 +8,11 @@ import { motion } from "framer-motion"
 export default function Hero() {
   return (
     <div className="mt-20 flex w-full justify-center overflow-hidden">
-      <video src={'techbackground.mov'} autoPlay={true} loop muted className="z-[-1] h-[500px] w-full object-cover" />
-      <div className="absolute top-0 h-full w-full bg-background opacity-50"></div>
+      <video autoPlay={true} loop muted className="z-[-1] h-[500px] w-full object-cover">
+        <source src="../../public/techbackground.mov" type="video/mov">
+        </source>
+      </video>
+      <div className="absolute top-0 h-full w-full bg-background opacity-60 dark:opacity-40"></div>
       <div className="absolute top-20 mx-4 mt-4 flex flex-col items-center p-2 xs:mx-6 sm:mx-10 md:mx-14 lg:max-w-[66%]">
         <h1 className="mb-1 w-fit bg-gradient-to-r from-babyblue via-royalpurple to-neworange bg-clip-text text-center text-lg font-bold tracking-tighter text-transparent duration-500 animate-in zoom-in sm:text-2xl lg:text-3xl 2xl:text-4xl">
           Web Solutions, Simplified
@@ -17,7 +20,7 @@ export default function Hero() {
         <h1 className="text-left text-4xl font-bold tracking-tighter 2xl:text-5xl">
           Your Hassle-Free Path to a Stunning Website for Your Business
         </h1>
-        <p className="my-4 font-medium leading-7 sm:text-lg xl:text-2xl">
+        <p className="my-4 font-semibold leading-7 sm:text-lg xl:text-2xl">
           We craft exceptional websites, so you don&apos;t have to. Experience the ease of having a dedicated team managing your online presence.
         </p>
         <div className='mt-3 flex w-full flex-col px-8 md:px-16'>
