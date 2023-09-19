@@ -21,7 +21,7 @@ export function SiteHeader() {
             <XIcon className="h-8 w-8 p-[1px]"/>
           </div>
         </div>
-        <button className='relative top-20 z-40 flex h-screen justify-start border-t-2 bg-background' onClick={() => setIsMenuOpen(false)}>
+        <button className='relative top-20 z-40 flex h-screen justify-start bg-background' onClick={() => setIsMenuOpen(false)}>
           <MobileNavLinks items={siteConfig.mainNav} />
         </button>
       </>
