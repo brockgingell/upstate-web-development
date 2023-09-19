@@ -8,11 +8,11 @@ export default function NavLogo() {
     <>
       <Link href="/" className="hidden items-center dark:flex">
         <Image src={iconwhite} alt="icon" className="h-16 p-[2px]"/>
-        <span className="inline-block font-bold leading-[18px] tablet:text-lg tablet:leading-5 sm:text-xl sm:leading-5">Upstate <br/> Web <br/> Design</span>
+        <span className="inline-block text-lg font-bold leading-5 sm:text-xl sm:leading-5">Upstate <br/> Web <br/> Design</span>
       </Link>
       <Link href="/" className="flex items-center dark:hidden">
         <Image src={iconblack} alt="icon" className="h-16 p-[2px]"/>
-        <span className="inline-block font-bold leading-[18px] tablet:text-lg tablet:leading-5 sm:text-xl sm:leading-5">Upstate <br/> Web <br/> Design</span>
+        <span className="inline-block text-lg font-bold leading-5 sm:text-xl sm:leading-5">Upstate <br/> Web <br/> Design</span>
       </Link>
     </>
   )
