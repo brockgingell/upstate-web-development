@@ -1,6 +1,6 @@
 import Hero from "@/components/services"
 
-export default function IndexPage() {
+export default function Page() {
 	return (
 		<>
 			<Hero />

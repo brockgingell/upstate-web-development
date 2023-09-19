@@ -1,12 +1,12 @@
 "use client"
-import { siteConfig } from "@/config/site"
-import NavLinks from "@/components/navlinks"
-import NavLogo from "@/components/navlogo"
-import NavButtons from "@/components/navbuttons"
 import React from "react"
+import { siteConfig } from "@/config/site"
 import { MenuIcon, XIcon } from "lucide-react"
-import { ThemeToggle } from "@/components/theme-toggle"
-import MobileNavLinks from "@/components/mobile-nav-links"
+import { ThemeToggle } from "@/components/navbar/theme-toggle"
+import NavLinks from "@/components/navbar/navlinks"
+import NavLogo from "@/components/navbar/navlogo"
+import NavButtons from "@/components/navbar/navbuttons"
+import MobileNavLinks from "@/components/navbar/mobile-navlinks"
 
 export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)

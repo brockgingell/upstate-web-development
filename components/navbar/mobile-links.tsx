@@ -2,13 +2,13 @@ import * as React from "react"
 import Link from "next/link"
 import { NavItem } from "@/types/nav"
 import { cn } from "@/lib/utils"
-import { SiteFooter } from "@/components/site-footer"
+import { SiteFooter } from "@/components/navbar/site-footer"
 
 interface MainNavProps {
   items?: NavItem[]
 }
 
-export default function MobileNavLinks({ items }: MainNavProps) {
+export default function MobileLinks({ items }: MainNavProps) {
   return (
     <div className="realtive mt-2">
       {items?.length ? (

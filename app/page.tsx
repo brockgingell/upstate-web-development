@@ -1,4 +1,4 @@
-import Hero from '@/components/hero-section'
+import Hero from '@/components/home/hero-section'
 
 export default function IndexPage() {
   return (

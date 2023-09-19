@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/ui/icons"
-import { ThemeToggle } from "@/components/theme-toggle"
+import { ThemeToggle } from "@/components/navbar/theme-toggle"
 import { siteConfig } from "@/config/site"
 
 
