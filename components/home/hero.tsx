@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 export default function Hero() {
   return (
     <div className="mt-20 flex w-full justify-center overflow-hidden">
-      <video width='full' height='500' controls className="z-[-1] h-[500px] w-full object-cover">
+      <video width='full' height='500' autoPlay={true} muted={true} loop={true} className="z-[-1] h-[500px] w-full object-cover">
         <source src="../../public/techbackground.mov" type="video/mov"/>
       </video>
       <div className="absolute top-0 h-full w-full bg-background opacity-60 dark:opacity-40"></div>
