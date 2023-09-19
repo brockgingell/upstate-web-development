@@ -46,7 +46,7 @@ const navigation = {
           ))}
         </div>
         <p className="text-center text-xs leading-8 text-gray-500">
-          &copy; 2023 StackedDeckSoftware, LLC. <br className="mobile:hidden"/> All rights reserved.
+          &copy; 2023 Upstate Digital Solutions, LLC. <br className="mobile:hidden"/> All rights reserved.
         </p>
       </div>
     </section>

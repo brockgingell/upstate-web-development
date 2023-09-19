@@ -1,6 +1,7 @@
 "use client"
 import { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion"
+import { SiteHeader } from "@/components/navbar/site-header"
 
 interface PageWrapperProps {
   children: ReactNode;
@@ -10,6 +11,7 @@ interface PageWrapperProps {
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
   <>
+    <SiteHeader />
     <svg className="absolute inset-0 -z-10 h-screen w-screen stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
       <defs>
         <pattern
