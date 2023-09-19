@@ -14,7 +14,7 @@ export function SiteHeader() {
     <header> {isMenuOpen ? 
       <>
         <div className="fixed top-0 z-50 flex w-screen flex-col border-b-2 bg-background p-1 md:px-6">
-          <div className="relative top-0 flex h-20 items-center justify-start">
+          <div className="top-0 flex h-[70px]">
             <NavTitle />
           </div>
           <div className="absolute right-2 top-5" onClick={() => setIsMenuOpen(!isMenuOpen)}>

@@ -11,13 +11,13 @@ export default function NavButtons() {
   return (
       <div className="flex items-center">
         <Link href={siteConfig.links.instagram} target="_blank" rel="noreferrer">
-          <div className={buttonVariants({variant: "ghost"})}>
+          <div className={`hidden tablet:flex ${buttonVariants({variant: "ghost"})}`}>
             <Icons.instagram />
             <span className="sr-only">Instagram</span>
           </div>
         </Link>
         <Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
-          <div className={buttonVariants({variant: "ghost"})}>
+          <div className={`hidden tablet:flex ${buttonVariants({variant: "ghost"})}`}>
             <Icons.twitter/>
             <span className="sr-only">Twitter</span>
           </div>
