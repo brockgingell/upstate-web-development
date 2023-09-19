@@ -20,7 +20,7 @@ export default function NavLinks({ items }: MainNavProps) {
                 key={index}
                 href={item.href}
                 className={cn(
-                  "flex items-center text-sm font-medium text-muted-foreground sm:text-base md:text-lg lg:text-xl",
+                  "flex items-center text-sm font-medium text-foreground sm:text-base md:text-lg lg:text-xl",
                   item.disabled && "cursor-not-allowed opacity-80"
                 )}
               >
