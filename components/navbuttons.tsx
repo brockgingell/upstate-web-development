@@ -11,7 +11,7 @@ export default function NavButtons() {
   return (
       <div className="flex items-center">
         <Link href={siteConfig.links.instagram} target="_blank" rel="noreferrer">
-          <div className={buttonVariants({variant: "ghost",})}>
+          <div className={buttonVariants({variant: "ghost"})}>
             <Icons.instagram />
             <span className="sr-only">Instagram</span>
           </div>

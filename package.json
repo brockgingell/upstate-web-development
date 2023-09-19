@@ -1,6 +1,6 @@
 {
-  "name": "upstate-wen-development",
-  "version": "0.0.9",
+  "name": "upstate-web-design",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

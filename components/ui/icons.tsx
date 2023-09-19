@@ -1,7 +1,7 @@
 
 import {
   Moon,
-  SunMedium,
+  Sun,
   Twitter,
   Github,
   Facebook,
@@ -13,7 +13,7 @@ import {
 export type Icon = LucideIcon
 
 export const Icons = {
-  sun: SunMedium,
+  sun: Sun,
   moon: Moon,
   twitter: Twitter,
   gitHub: Github,
