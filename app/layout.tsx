@@ -5,7 +5,7 @@ import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/navbar/site-header"
 import { TailwindIndicator } from "@/components/ui/tailwind-indicator"
-import { ThemeProvider } from "@/components/navbar/theme-provider"
+import { ThemeProvider } from "@/components/ui/theme-provider"
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {

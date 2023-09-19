@@ -6,7 +6,7 @@ import { ThemeToggle } from "@/components/navbar/theme-toggle"
 import NavLinks from "@/components/navbar/navlinks"
 import NavLogo from "@/components/navbar/navlogo"
 import NavButtons from "@/components/navbar/navbuttons"
-import MobileNavLinks from "@/components/navbar/mobile-navlinks"
+import MobileNavLinks from "@/components/navbar/mobile-links"
 
 export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)

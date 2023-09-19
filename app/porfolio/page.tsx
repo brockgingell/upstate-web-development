@@ -1,4 +1,4 @@
-import Hero from "@/components/services"
+import Hero from "@/components/projects/portfolio"
 
 export default function Page() {
 	return (
