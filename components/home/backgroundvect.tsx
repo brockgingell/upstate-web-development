@@ -1,7 +1,7 @@
 export default function BackgroundVect() {
   return (
     <>
-      <svg className="absolute inset-0 -z-10 h-screen w-screen stroke-foreground/20 dark:stroke-foreground/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
+      <svg className="absolute inset-0 -z-10 h-screen w-screen stroke-foreground/20 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)] dark:stroke-foreground/10" aria-hidden="true">
         <defs>
           <pattern
             id="1d4240dd-898f-445f-932d-e2872fd12de3"
