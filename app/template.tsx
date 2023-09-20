@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion"
 import { SiteHeader } from "@/components/navbar/site-header"
 import BackgroundVect from "@/components/home/backgroundvect"
+import CTABackground from "@/components/ui/ctabackground"
 
 interface PageWrapperProps {
   children: ReactNode;
@@ -14,6 +15,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
   <>
     <SiteHeader />
     <BackgroundVect />
+    <CTABackground />
     <AnimatePresence>
       <motion.div
         initial={{ opacity: 0 }}
