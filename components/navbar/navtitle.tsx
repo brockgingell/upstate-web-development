@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import {CompanyIcon} from '@/components/ui/company-icon.tsx'
+import {CompanyIcon} from '@/components/ui/company-icon'
 
 export default function NavTitle() {
   return (
