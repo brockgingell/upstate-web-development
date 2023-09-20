@@ -38,15 +38,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <meta name="msapplication-config" content="/public/browserconfig.xml"/>
           <meta name="theme-color" content="#000000"/>
         </head>
-        <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
-          )}
-        >
+        <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="flex min-h-screen flex-col">
-              <div className="flex-1">{children}<Analytics /></div>
+            <div className="min-h-screen flex-1 flex-col">
+              {children}
+              <Analytics />
             </div>
             <TailwindIndicator />
           </ThemeProvider>
