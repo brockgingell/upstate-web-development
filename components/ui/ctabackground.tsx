@@ -4,9 +4,13 @@ type Props = {
 
 export function CTABackground({ className, ...props }: Props) {
   return (
-
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3913.937 1956.968">
-  <defs>
+    <svg 
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 3913.937 1956.968"
+    className={`h-auto w-auto ${className}`}
+    {...props}
+    >
+      <defs>
     <clipPath id="clippath">
       <rect width="3913.937" height="1956.968" fill="none" stroke-width="0"/>
     </clipPath>
@@ -57,5 +61,5 @@ export function CTABackground({ className, ...props }: Props) {
     </g>
   </g>
 </svg>
-  )
+ )
 }
