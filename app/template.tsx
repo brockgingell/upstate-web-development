@@ -13,7 +13,6 @@ export default function Template({ children }: { children: React.ReactNode }) {
   return (
   <>
     <SiteHeader />
-    <BackgroundVect />
     <AnimatePresence>
       <motion.div
         initial={{ opacity: 0 }}
