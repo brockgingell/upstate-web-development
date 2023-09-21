@@ -11,8 +11,8 @@ interface PageWrapperProps {
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
   <>
-    <SiteHeader />
     <AnimatePresence>
+      <SiteHeader />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
