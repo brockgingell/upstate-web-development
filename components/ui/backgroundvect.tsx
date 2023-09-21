@@ -5,11 +5,10 @@ export default function BackgroundVect() {
         <defs>
           <pattern
             id="1d4240dd-898f-445f-932d-e2872fd12de3"
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             y={0}
-            patternUnits="userSpaceOnUse"
-          >
+            patternUnits="userSpaceOnUse">
             <path d="M.5 200V.5H200" fill="none" />
           </pattern>
         </defs>
