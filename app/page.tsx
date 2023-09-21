@@ -3,7 +3,7 @@ import Hero from '@/components/home/hero'
   
   export default function IndexPage() {
     return (
-      <main>
+      <main className='w-screen'>
         <Hero/>
       </main>
     )

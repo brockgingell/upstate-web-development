@@ -6,7 +6,9 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 47.4% 11.2%;
-
+    --heroone: 209,32%,52%;
+    --herotwo: 18,81%,61%;
+    --herothree: 207,77%,73%;
     --newblue: 221, 83%, 53%;
     --babyblue: 195, 98%, 52%;
     --royalpurple: 308, 74%, 50%;

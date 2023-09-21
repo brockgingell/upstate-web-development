@@ -21,6 +21,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        heroone: "hsl(var(--heroone))",
+        herotwo: "hsl(var(--herotwo))",
+        herothree: "hsl(var(--herothree))",
         newblue: "hsl(var(--newblue))",
         babyblue: "hsl(var(--babyblue))",
         newpurple: "hsl(var(--newpurple))",
