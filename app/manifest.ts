@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
- 
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Upstate Digital Solutions',
@@ -12,7 +12,7 @@ export default function manifest(): MetadataRoute.Manifest {
         type: 'image/x-icon',
       },
       {
-          src: "/android-chrome-192x192.png",
+          src: "android-chrome-192x192.png",
           sizes: "192x192",
           type: "image/png"
       },
