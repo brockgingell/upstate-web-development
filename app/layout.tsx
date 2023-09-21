@@ -5,13 +5,14 @@ import { cn } from '@/lib/utils'
 import { TailwindIndicator } from '@/components/ui/tailwind-indicator'
 import { ThemeProvider } from '@/components/ui/theme-provider'
 import { Analytics } from '@vercel/analytics/react'
+import { manifest } from "@/config/site"
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    default: manifest.name,
+    template: `%s - ${manifest.name}`,
   },
-  description: siteConfig.description,
+  description: manifest.description,
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
