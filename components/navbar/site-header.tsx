@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import { msnifest } from "@/config/site"
+import { manifest } from "@/config/site"
 import { MenuIcon, XIcon } from "lucide-react"
 import { ThemeToggle } from "@/components/navbar/theme-toggle"
 import NavLinks from "@/components/navbar/navlinks"

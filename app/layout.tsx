@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 import { TailwindIndicator } from '@/components/ui/tailwind-indicator'
 import { ThemeProvider } from '@/components/ui/theme-provider'
 import { Analytics } from '@vercel/analytics/react'
-import S from '@/config/site'
+import manifest from '@/config/site'
 
 export const metadata: Metadata = {
   title: {
