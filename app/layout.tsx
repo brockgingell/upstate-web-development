@@ -28,9 +28,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <link rel="apple-touch-icon"   href="/public/apple-touch-icon.png" type="image/<generated" sizes="<generated"/>
+        <link rel="apple-touch-icon" href="/public/apple-touch-icon.png" type="image/<generated" sizes="<generated"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#686868"/>
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
         </head>
