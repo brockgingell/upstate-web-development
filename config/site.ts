@@ -31,31 +31,22 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/StackedDeckAi/",
     linkedin: "https://www.linkedin.com/company/stacked-deck-ai/",
   },
-}
-export default function manifest(): MetadataRoute.Manifest {
-  return {
-    name: siteConfig.name,
-    short_name: siteConfig.name,
-    description: siteConfig.description,
-    start_url: '/',
-    display: 'standalone',
-    icons: [
-      {
-        src: 'favicon.ico',
-        sizes: 'any',
-        type: 'image/x-icon',
-      },
-      {
-        src: "/android-chrome-192x192.png",
-        sizes: "192x192",
-        type: "image/png",
-      },
-      {
-        src: "/android-chrome-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-      },
-    ],
-  }
+  icons: [
+    {
+      src: 'favicon.ico',
+      sizes: 'any',
+      type: 'image/x-icon',
+    },
+    {
+      src: "/public/android-chrome-192x192.png",
+      sizes: "192x192",
+      type: "image/png",
+    },
+    {
+      src: "/public/android-chrome-512x512.png",
+      sizes: "512x512",
+      type: "image/png",
+    },
+  ]
 }
 
