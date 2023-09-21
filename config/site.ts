@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 
-export type Manifest = typeof manifest
+export type Manifest = typeof siteConfig
 
 export const manifest: MetadataRoute.Manifest = {
   name: "Upstate Digital Solutions - Website Development Agency Proudly Serving New York's Capital Region",
