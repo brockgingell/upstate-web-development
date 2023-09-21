@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import { siteConfig } from '@/config/site'
+import { manifest } from '@/config/site'
 import { buttonVariants } from '@/components/ui/button'   
 import { motion } from "framer-motion"
 import  BackgroundVect from '@/components/ui/backgroundvect'
@@ -21,7 +21,7 @@ export default function Hero() {
           We craft exceptional websites, so you don&apos;t have to. Experience the ease of having a dedicated team managing your online presence.
         </p>
         <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
-          <Link href={siteConfig.mainNav[2].href} className={`w-full ${buttonVariants({variant: "default"})}`}>
+          <Link href={manifest.mainNav[2].href} className={`w-full ${buttonVariants({variant: "default"})}`}>
             Book a Free Consultation →
           </Link>
         </motion.div>
