@@ -13,8 +13,9 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#e4a20b",
-    "background_color": "#e4a20b",
+    "theme_color": "#e2e2e2",
+    "background_color": "#e2e2e2",
+    "start_url": "http://stackeddeckai.com",
     "display": "standalone",
     "orientation": "portrait"
 }

@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <section className="mt-20 flex w-full justify-center overflow-hidden">
+    <section className="mt-20 flex h-full w-full justify-center overflow-hidden">
       <div className="mx-4 mt-4 flex flex-col items-center p-2 xs:mx-6 sm:mx-10 md:mx-14 lg:max-w-[66%]">
         <h1 className="mb-1 w-fit bg-gradient-to-r from-babyblue via-royalpurple to-neworange bg-clip-text text-center text-lg font-bold tracking-tighter text-transparent duration-500 animate-in zoom-in sm:text-2xl lg:text-3xl 2xl:text-4xl">
           Web Solutions, Simplified

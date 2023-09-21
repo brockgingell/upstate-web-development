@@ -1,6 +1,5 @@
 "use client"
 import Image from 'next/image'
-import custompic from '@/public/carousel/customewebAsset 1.svg'
 import { CodeBracketIcon, DevicePhoneMobileIcon, QuestionMarkCircleIcon, MagnifyingGlassCircleIcon, ShoppingCartIcon, UserIcon } from '@heroicons/react/24/outline'
 import { motion } from "framer-motion";
 
