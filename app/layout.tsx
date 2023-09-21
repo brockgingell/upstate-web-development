@@ -28,7 +28,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <siteConfig.metadata />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" sizes="180x180"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#686868"/>
