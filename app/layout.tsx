@@ -28,11 +28,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" sizes="180x180"/>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#686868"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png"/>
         <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png"/>
-        <meta name="msapplication-TileColor" content="#da532c"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#444444"/>
+        <meta name="apple-mobile-web-app-title" content="Upstate Digital Solutions"/>
+        <meta name="application-name" content="Upstate Digital Solutions"/>
+        <meta name="msapplication-TileColor" content="#ffc40d"/>
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
         <meta name="theme-color" content="#ffffff"/>
         </head>
         <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
