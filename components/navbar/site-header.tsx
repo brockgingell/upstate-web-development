@@ -12,7 +12,7 @@ export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   return (
     <header> {isMenuOpen ? 
-      <>
+      <main>
         <div className="fixed top-0 z-50 flex w-screen flex-col border-b-2 bg-background p-1 md:px-6">
           <div className="top-0 flex h-[70px]">
             <NavTitle />
@@ -24,9 +24,9 @@ export function SiteHeader() {
         <button className='relative top-20 z-40 flex h-screen justify-start bg-background' onClick={() => setIsMenuOpen(false)}>
           <MobileNavLinks items={siteConfig.mainNav} />
         </button>
-      </>
+      </main>
       :
-      <>
+      <main>
         <div className="fixed top-0 z-50 flex h-20 w-screen flex-row items-center justify-between border-b-2 bg-background p-1 md:px-6">
           <NavTitle />
           <div className="hidden flex-row items-center justify-center xs:flex">
@@ -39,7 +39,7 @@ export function SiteHeader() {
             </button>
           </div>
         </div>
-      </>
+      </main>
       }
     </header>
   )
