@@ -28,10 +28,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <link rel="apple-touch-icon"   href="/apple-icon?<generated" type="image/<generated" sizes="<generated"/>
+        <link rel="apple-touch-icon"   href="/public/apple-touch-icon.png" type="image/<generated" sizes="<generated"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="manifest" href="/site.webmanifest"/>
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#686868"/>
+        <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#686868"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
         </head>
