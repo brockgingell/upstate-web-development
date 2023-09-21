@@ -28,17 +28,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="../public/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="192x192" href="../public/android-chrome-192x192.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon-16x16.png"/>
-        <link rel="manifest" href="../public/site.webmanifest"/>
-        <link rel="mask-icon" href="../public/safari-pinned-tab.svg" color="#353535"/>
-        <link rel="shortcut icon" href="../public/favicon.ico"/>
+        <link rel="apple-touch-icon"   href="/apple-icon?<generated" type="image/<generated" sizes="<generated"/>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="manifest" href="/site.webmanifest"/>
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#686868"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
-        <meta name="msapplication-TileImage" content="../public/mstile-144x144.png"/>
-        <meta name="msapplication-config" content="../public/browserconfig.xml"/>
-        <meta name="theme-color" content="#e2e2e2"/>
+        <meta name="theme-color" content="#ffffff"/>
         </head>
         <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
