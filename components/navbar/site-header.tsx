@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import { manifest } from "@/config/site"
+import { siteConfig } from "@/config/site"
 import { MenuIcon, XIcon } from "lucide-react"
 import { ThemeToggle } from "@/components/navbar/theme-toggle"
 import NavLinks from "@/components/navbar/navlinks"
@@ -22,7 +22,7 @@ export function SiteHeader() {
           </div>
         </div>
         <button className='relative top-20 z-40 flex h-screen justify-start bg-background' onClick={() => setIsMenuOpen(false)}>
-          <MobileNavLinks items={msnifest.mainNav} />
+          <MobileNavLinks items={siteConfig.mainNav} />
         </button>
       </>
       :
@@ -30,7 +30,7 @@ export function SiteHeader() {
         <div className="fixed top-0 z-50 flex h-20 w-screen flex-row items-center justify-between border-b-2 bg-background p-1 md:px-6">
           <NavTitle />
           <div className="hidden flex-row items-center justify-center xs:flex">
-            <NavLinks items={manifest.mainNav} />
+            <NavLinks items={siteConfig.mainNav} />
           </div>
           <div className="absolute right-2 z-50 flex xs:relative">
           <NavButtons />
