@@ -8,6 +8,8 @@ export function CompanyIcon({ className, ...props }: Props) {
       id="Layer_2"
       data-name="Layer 2"
       xmlns="http://www.w3.org/2000/svg"
+      width="85"
+      height="62"
       viewBox="0 0 85 62"
       className={`h-auto w-auto ${className}`}
       {...props}
