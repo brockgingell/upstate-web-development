@@ -13,7 +13,7 @@ interface MainNavProps {
 
 export default function NavLinks({ items }: MainNavProps) {
   return (
-    <section className={roboto.className}>
+    <main className={roboto.className}>
       <div className='flex'>
       {items?.length ? (
         <nav className="mr-6 flex gap-3 sm:gap-5 lg:gap-8"> 
@@ -34,6 +34,6 @@ export default function NavLinks({ items }: MainNavProps) {
         </nav>
       ) : null}
     </div>
-    </section>
+    </main>
   )
 }

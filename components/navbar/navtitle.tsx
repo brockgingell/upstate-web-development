@@ -13,11 +13,11 @@ interface MainNavProps {
 
 export default function NavTitle() {
   return (
-    <section className={rokkitt.className}>
+    <main className={rokkitt.className}>
       <Link href="/" className="flex items-center">
         <CompanyIcon className='mr-1 h-[62px]' />
         <h1 className="inline-block text-xl font-bold leading-5 sm:text-2xl sm:leading-5">Upstate<br/>Digital <br/>Solutions</h1>
       </Link>
-    </section>
+    </main>
   )
 }

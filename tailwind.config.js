@@ -20,6 +20,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern':  "url('https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png')",
+      },
       colors: {
         heroone: "hsl(var(--heroone))",
         herotwo: "hsl(var(--herotwo))",
@@ -80,10 +83,22 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "wave":{
+          from: { backgroundPositionX: "0px" },
+          to: { backgroundPositionX: "1000px" },
+        },
+        "wave2": {
+          from: { backgroundPositionX: "0px" },
+          to: { backgroundPositionX: "-1000px" },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "wave": "wave 30s linear infinite animation-delay-0",
+        "wave2": "wave2 15s linear infinite animation-delay-[-5s]",
+        "wave3": "wave 30s linear infinite animation-delay-[-2s]",
+        "wave4": "wave2 5s linear infinite animation-delay-[-5s]",
       },
     },
   },
