@@ -30,8 +30,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head>
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" sizes="180x180"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#686868"/>
-        <link rel="icon" type="image/png" sizes="192x192" href="/public/android-chrome-192x192.png"/>
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#686868"/>
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png"/>
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
         </head>
