@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <section>
+    <section className='dark:bg-background'>
       <div class='air air1'></div>
       <div class='air air2'></div>
       <div class='air air3'></div>
