@@ -38,7 +38,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta name="application-name" content="Upstate Digital Solutions"/>
         <meta name="msapplication-TileColor" content="#ffc40d"/>
         <meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
-        <meta name="theme-color" content="#ffffff"/>
+        <meta name="theme-color" content="444444"/>
         </head>
         <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
