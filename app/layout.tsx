@@ -1,12 +1,10 @@
 import '@/styles/globals.css'
 import { Metadata } from 'next'
-import { manifest } from '@/config/site'
 import { fontSans } from '@/lib/fonts'
 import { cn } from '@/lib/utils'
 import { TailwindIndicator } from '@/components/ui/tailwind-indicator'
 import { ThemeProvider } from '@/components/ui/theme-provider'
 import { Analytics } from '@vercel/analytics/react'
-import manifest from '@/config/site'
 
 export const metadata: Metadata = {
   title: {
@@ -29,7 +27,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-        <manifest.metadata />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" sizes="180x180"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#686868"/>
