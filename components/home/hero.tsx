@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/config/site'
 import { buttonVariants } from '@/components/ui/button'   
 import { motion } from "framer-motion"
-import {BackgroundVect} from '@/components/ui/backgroundvect'
+import BackgroundVect from '@/components/ui/backgroundvect'
 
 export default function Hero() {
   return (
