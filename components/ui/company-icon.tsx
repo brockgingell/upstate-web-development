@@ -9,9 +9,8 @@ export function CompanyIcon({ className, ...props }: Props) {
       data-name="Layer 2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 134.355 98"
-      height="98"
-      width="134.355"
-      className={`h-auto w-auto ${className}`}
+
+      className={`${className}`}
       {...props}
       >
       <defs>
