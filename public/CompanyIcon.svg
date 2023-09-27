@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 134.355 98">
   <defs>
-    <linearGradient id="linear-gradient" x1="66.869" y1="71.945" x2="66.869" y2="-7.565" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#573734" stop-opacity=".8"/>
-      <stop offset=".182" stop-color="#d6562b"/>
-      <stop offset=".479" stop-color="#ed7c31"/>
-      <stop offset=".654" stop-color="#f4bb3a"/>
+    <linearGradient id="linear-gradient" x1="66.869" y1="16.835" x2="66.869" y2="64.061" gradientUnits="userSpaceOnUse">
+      <stop offset=".016" stop-color="#d6562b"/>
+      <stop offset=".504" stop-color="#ed7c31"/>
+      <stop offset="1" stop-color="#f4bb3a"/>
     </linearGradient>
   </defs>
   <g id="Layer">
@@ -33,7 +32,7 @@
           <g id="Navbar">
             <path id="Searchbar" d="m43.335,7.118h50.829c.804,0,1.456.707,1.456,1.58v.002c0,.873-.652,1.58-1.456,1.58h-50.829c-.804,0-1.456-.707-1.456-1.58v-.002c0-.873.652-1.58,1.456-1.58Z" stroke-width="0"/>
             <g id="Menu">
-              <rect x="117.226" y="6.477" width="7.903" height="1.581" rx=".677" ry=".677" stroke-width="0"/>
+              <path d="m117.886,6.477h6.582c.365,0,.66.303.66.677v.227c0,.374-.296.677-.66.677h-6.582c-.365,0-.66-.303-.66-.677v-.227c0-.374.296-.677.66-.677Z" stroke-width="0"/>
               <path d="m117.886,9.69h6.582c.365,0,.66.303.66.677v.227c0,.374-.296.677-.66.677h-6.582c-.365,0-.66-.303-.66-.677v-.227c0-.374.296-.677.66-.677Z" stroke-width="0"/>
             </g>
             <g id="Buttons">

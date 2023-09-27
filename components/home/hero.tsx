@@ -7,11 +7,13 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
+    <>
     <section className='dark:bg-background'>
       <div className='air air1'></div>
       <div className='air air2'></div>
       <div className='air air3'></div>
       <div className='air air4'></div>
+    </section>
       <div className="realtive mx-8 mt-[120px] flex flex-col items-center">
         <h1 className="text-left text-4xl font-bold tracking-tighter 2xl:text-5xl">
           Elevate Your Business with the Premium Website it Deserves
@@ -25,6 +27,6 @@ export default function Hero() {
           </Link>
         </motion.div>
       </div>
-    </section>
+    </>
   )
 }
