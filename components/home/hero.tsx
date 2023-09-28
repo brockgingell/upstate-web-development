@@ -16,7 +16,7 @@ export default function Hero() {
             Upgrade to a Website That Captures <br className='hidden md:flex'/> Your Business Excellence.
           </h1>
           <p className="mx-4 mt-2 max-w-[330px] text-center text-lg font-medium tablet:max-w-[560px] tablet:text-xl xs:text-2xl md:text-3xl lg:max-w-[940px] lg:text-4xl">
-            We specialize in creating websites designed to help small businesses dominate their local market. Headache-free web solutions with 24/7 support.
+            We create websites specifically designed to help your business dominate your local market. Headache-free web solutions with 24/7 support.
           </p>
           <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
             <Link href={siteConfig.mainNav[2].href} className={`mt-8 w-full ${buttonVariants({size:"sm", variant: "default"})}`}>
