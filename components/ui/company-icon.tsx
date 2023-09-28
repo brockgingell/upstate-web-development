@@ -45,7 +45,7 @@ export function CompanyIcon({ className, ...props }: Props) {
           </g>
         </g>
       </g>
-      <g id="Screen">
+      <g id="Screen" fill="currentColor">
         <rect id="Left" y="2.348" width="4.036" height="95.656" strokeWidth="0"/>
         <rect id="Right" x="132.924" y="2.417" width="4.036" height="95.823" strokeWidth="0"/>
         <g id="ToolBar">
