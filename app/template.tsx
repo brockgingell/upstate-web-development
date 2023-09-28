@@ -2,7 +2,7 @@
 import { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion"
 import { SiteHeader } from "@/components/navbar/site-header"
-import HeroBG from '@/components/ui/herobg'
+import {HeroBG} from '@/components/ui/herobg'
 
 interface PageWrapperProps {
   children: ReactNode;
