@@ -19,7 +19,7 @@ export default function Hero() {
             We specialize in creating websites designed to help small businesses dominate their local market. Headache-free web solutions with 24/7 support.
           </p>
           <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
-            <Link href={siteConfig.mainNav[2].href} className={`w-full ${buttonVariants({size:"sm", variant: "default"})}`}>
+            <Link href={siteConfig.mainNav[2].href} className={`mt-8 w-full ${buttonVariants({size:"sm", variant: "default"})}`}>
               Book a Free Consultation →
             </Link>
           </motion.div>
