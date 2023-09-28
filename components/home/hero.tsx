@@ -10,7 +10,7 @@ import { motion } from "framer-motion"
 export default function Hero() {
   return (
     <main>
-      <div className="mt-20 absolute flex h-screen w-screen flex-col items-center justify-around gap-1">
+      <div className="absolute mt-20 flex h-screen w-screen flex-col items-center justify-around gap-1">
         <div className='flex w-screen flex-col items-center'>
           <h1 className='mx-6 text-center text-2xl font-bold tablet:text-4xl xs:text-5xl lg:text-6xl'>
             Upgrade to a Website That Captures <br className='hidden md:flex'/> Your Business Excellence.

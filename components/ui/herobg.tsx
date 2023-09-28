@@ -6,7 +6,7 @@ export function HeroBG({ className, ...props }: Props) {
     return (
     <>
           <svg
-            className="absolute inset-0 -z-10 h-full stroke-slate-400 w-full [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)] dark:stroke-white/10"
+            className="absolute inset-0 -z-10 h-full w-full stroke-slate-400 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)] dark:stroke-white/10"
             aria-hidden="true"
           >
             <defs>
