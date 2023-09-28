@@ -14,11 +14,11 @@ export default function Hero() {
   return (
     <main className={`dark:text-black ${crimsonBold.className}`}>
       <Image className='' src={background} alt="hero background" layout="fill" objectFit="cover" quality={100} />
-      <div className="absolute mt-[120px] flex w-screen flex-col items-center gap-4">
+      <div className="absolute mt-[120px] flex w-screen flex-col items-center justify-center gap-4 xs:justify-start">
         <h1 className='mx-2 text-center text-4xl xs:text-5xl lg:text-6xl'>
           Forge Your Digital Summit<br className='hidden xs:flex'/> with Upstate Excellence
         </h1>
-        <p className={`mx-4 max-w-[560px] text-center text-xl tablet:text-2xl xs:text-3xl lg:max-w-[940px] lg:text-4xl ${crimsonSemi.className}`}>
+        <p className={`mx-4 max-w-[247px] text-center text-xl tablet:max-w-[560px] tablet:text-2xl xs:text-3xl lg:max-w-[940px] lg:text-4xl ${crimsonSemi.className}`}>
           Avoid the digital hassle; let us pave your pathway to online success while you focus on what you do best-running your business.
         </p>
         <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
