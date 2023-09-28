@@ -24,7 +24,7 @@ export default function Hero() {
             </Link>
           </motion.div>
         </div>
-        <svg className='lucide lucide-chevron-down-circle mb-[100px} flex animate-bounce sm:mb-[120px]' xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 10-4 4-4-4"/></svg>
+        <svg className='lucide lucide-chevron-down-circle mb-[30vh} flex animate-bounce sm:mb-[30vh]' xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 10-4 4-4-4"/></svg>
       </div>
     </main>
   )
