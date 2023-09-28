@@ -12,11 +12,11 @@ export default function Hero() {
     <main>
       <div className="absolute mt-[100px] flex h-screen w-screen flex-col items-center justify-around gap-1 sm:mt-[120px]">
         <div className='flex w-screen flex-col items-center'>
-          <h1 className='mx-2 text-center text-2xl font-bold tablet:text-4xl xs:text-5xl lg:text-6xl'>
-            Forge Your Digital Summit<br className='hidden xs:flex'/> with Upstate Excellence
+          <h1 className='mx-6 text-center text-2xl font-bold tablet:text-4xl xs:text-5xl lg:text-6xl'>
+            Upgrade to a Website That Captures <br className='hidden md:flex'/> Your Business Excellence.
           </h1>
-          <p className="mx-4 max-w-[330px] text-center text-lg font-medium tablet:max-w-[560px] tablet:text-xl xs:text-2xl md:text-3xl lg:max-w-[940px] lg:text-4xl">
-            Avoid the digital hassle; let us pave your pathway to online success while you focus on what you do best-running your business.
+          <p className="mx-4 mt-2 max-w-[330px] text-center text-lg font-medium tablet:max-w-[560px] tablet:text-xl xs:text-2xl md:text-3xl lg:max-w-[940px] lg:text-4xl">
+            We specialize in creating websites designed to help small businesses dominate their local market. Headache-free web solutions with 24/7 support.
           </p>
           <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
             <Link href={siteConfig.mainNav[2].href} className={`w-full ${buttonVariants({size:"sm", variant: "default"})}`}>
