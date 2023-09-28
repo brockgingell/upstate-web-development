@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Leveraging AI to deliver fast and efficient web development services. We provide custom solutions for your web development needs, from design to deployment. Join us on our journey as we redefine web development.',
     icons: [
       {
-        src: '/favicon/favicon.ico',
+        src: 'favicon.ico',
         sizes: 'any',
         type: 'image/x-icon',
       },
