@@ -5,26 +5,44 @@ type Props = {
 export function HeroBG({ className, ...props }: Props) {
     return (
     <>
-      <svg width="1280" height="758" viewBox="0 0 1280 758" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="1280" height="758" fill="url(#paint0_angular_7_338)" fill-opacity="0.8"/>
-        <rect width="1280" height="758" fill="url(#paint1_linear_7_338)" fill-opacity="0.1"/>
-        <rect width="1280" height="758" fill="url(#paint2_diamond_7_338)" fill-opacity="0.2"/>
-        <defs>
-          <radialGradient id="paint0_angular_7_338" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(626 789.5) rotate(-163.301) scale(417.612 705.203)">
-            <stop offset="0.130208" stop-color="#00284E"/>
-            <stop offset="0.98736"/>
-          </radialGradient>
-          <linearGradient id="paint1_linear_7_338" x1="29" y1="704.5" x2="178" y2="886" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FF4E00"/>
-            <stop offset="1"/>
-            <stop offset="1"/>
-          </linearGradient>
-          <radialGradient id="paint2_diamond_7_338" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1118.5 277.5) rotate(179.476) scale(218.509 1335.96)">
-            <stop stop-color="#FF4E00"/>
-            <stop offset="1" stop-color="#3D3939"/>
-          </radialGradient>
-        </defs>
-      </svg>
+       <div className="relative isolate overflow-hidden">
+          <svg
+            className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc"
+                width={200}
+                height={200}
+                x="50%"
+                y={-1}
+                patternUnits="userSpaceOnUse"
+              >
+                <path d="M.5 200V.5H200" fill="none" />
+              </pattern>
+            </defs>
+            <svg x="50%" y={-1} className="overflow-visible fill-gray-800/20">
+              <path
+                d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
+                strokeWidth={0}
+              />
+            </svg>
+            <rect width="100%" height="100%" strokeWidth={0} fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
+          </svg>
+          <div
+            className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
+            aria-hidden="true"
+          >
+            <div
+              className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20"
+              style={{
+                clipPath:
+                  'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
+              }}
+            />
+          </div>
+        </div>
     </>
   )
 }
