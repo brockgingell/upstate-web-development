@@ -15,10 +15,10 @@ export default function Hero() {
     <main className={`dark:text-black ${crimsonBold.className}`}>
       <Image className='' src={background} alt="hero background" layout="fill" objectFit="cover" quality={100} />
       <div className="absolute mt-[120px] flex w-screen flex-col items-center gap-4">
-        <h1 className='text-center text-4xl'>
+        <h1 className='mx-2 text-center text-4xl'>
           Forge Your Digital Summit with Upstate Excellence
         </h1>
-        <p className={`text-center text-xl ${crimsonSemi.className}`}>
+        <p className={`mx-4 text-center text-xl tablet:text-2xl ${crimsonSemi.className}`}>
           Avoid the digital hassle; let us pave your pathway to online success while you focus on what you do best-running your business.
         </p>
         <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
