@@ -13,18 +13,15 @@ const crimsonSemi = Crimson_Text({ weight: ['600'], subsets: ['latin'] })
 export default function Hero() {
   return (
     <main className={`${crimsonBold.className}`}>
-      <Image className='z-[-1]' src={background} alt="hero background" layout="fill" objectFit="cover" quality={100} />
-      <div className="absolute inset-0 bg-white bg-opacity-[30] dark:bg-black dark:bg-opacity-[50]"></div>
-
-      <div className="absolute mt-[90px] flex w-screen flex-col items-center justify-center gap-4 xs:justify-start sm:mt-[120px]">
-        <h1 className='mx-2 text-center text-4xl xs:text-5xl lg:text-6xl'>
+      <div className="absolute mt-[100px] flex h-screen w-screen flex-col items-center gap-1 xs:justify-start sm:mt-[120px]">
+        <h1 className='mx-2 text-center text-2xl tablet:text-4xl xs:text-5xl lg:text-6xl'>
           Forge Your Digital Summit<br className='hidden xs:flex'/> with Upstate Excellence
         </h1>
-        <p className={`mx-4 max-w-[330px] text-center text-xl tablet:max-w-[560px] tablet:text-2xl xs:text-3xl lg:max-w-[940px] lg:text-4xl ${crimsonSemi.className}`}>
+        <p className={`mx-4 max-w-[330px] text-center text-lg tablet:max-w-[560px] tablet:text-xl xs:text-2xl md:text-3xl lg:max-w-[940px] lg:text-4xl ${crimsonSemi.className}`}>
           Avoid the digital hassle; let us pave your pathway to online success while you focus on what you do best-running your business.
         </p>
         <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
-          <Link href={siteConfig.mainNav[2].href} className={`w-full ${buttonVariants({size:"lg", variant: "default"})}`}>
+          <Link href={siteConfig.mainNav[2].href} className={`w-full ${buttonVariants({size:"sm", variant: "default"})}`}>
             Book a Free Consultation →
           </Link>
         </motion.div>
