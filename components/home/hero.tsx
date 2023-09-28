@@ -5,16 +5,20 @@ import Link from 'next/link'
 import { siteConfig } from '@/config/site'
 import { buttonVariants } from '@/components/ui/button'   
 import { motion } from "framer-motion"
+import { Crimson_Text } from "next/font/google"
+
+const crimsonBold = Crimson_Text({ weight: ['700'], subsets: ['latin'] })
+const crimsonSemi = Crimson_Text({ weight: ['600'], subsets: ['latin'] })
 
 export default function Hero() {
   return (
-    <>
-      <Image src={background} alt="hero background" layout="fill" objectFit="cover" quality={100} />
-      <div className="absolute mx-8 mt-[120px] flex flex-col items-center">
-        <h1 className="text-left text-4xl font-bold tracking-tighter 2xl:text-5xl">
+    <main className={`dark:text-black ${crimsonBold.className}`}>
+      <Image className='' src={background} alt="hero background" layout="fill" objectFit="cover" quality={100} />
+      <div className="absolute mx-2 mt-[120px] flex w-full flex-col items-center gap-4">
+        <h1 className='text-center text-4xl'>
           Forge Your Digital Summit with Upstate Excellence
         </h1>
-        <p className="my-4 font-semibold leading-7 sm:text-lg xl:text-2xl">
+        <p className={`text-center text-xl ${crimsonSemi.className}`}>
           Avoid the digital hassle; let us pave your pathway to online success while you focus on what you do best-running your business.
         </p>
         <motion.div   whileHover={{ scale: 1.1, transition: { duration: 1 }}} whileTap={{ scale: 0.8, transition: { duration: 1 } }} >
@@ -23,6 +27,6 @@ export default function Hero() {
           </Link>
         </motion.div>
       </div>
-    </>
+    </main>
   )
 }

@@ -3,13 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { CompanyIcon } from '@/components/ui/company-icon'
 import { Rokkitt } from "next/font/google"
-import { NavItem } from "@/types/nav"
 
 const rokkitt = Rokkitt({ subsets: ['latin'] })
-
-interface MainNavProps {
-  items?: NavItem[]
-}
 
 export default function NavTitle() {
   return (
