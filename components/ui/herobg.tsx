@@ -4,16 +4,16 @@ type Props = {
 
 export function HeroBG({ className, ...props }: Props) {
     return (
-    <>
+    <div className='absolute h-screen w-screen'>
           <svg
-            className="absolute inset-0 -z-10 h-full w-full stroke-slate-400 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)] dark:stroke-white/10"
+            className="inset-0 -z-10 h-full w-full stroke-slate-300 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)] dark:stroke-white/10"
             aria-hidden="true"
           >
             <defs>
               <pattern
                 id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc"
-                width={200}
-                height={200}
+                width={175}
+                height={175}
                 x="50%"
                 y={-1}
                 patternUnits="userSpaceOnUse"
@@ -41,6 +41,6 @@ export function HeroBG({ className, ...props }: Props) {
               }}
             />
           </div>
-    </>
+    </div>
   )
 }
