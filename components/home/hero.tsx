@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <main className={`${crimsonBold.className}`}>
       <Image className='z-[-1]' src={background} alt="hero background" layout="fill" objectFit="cover" quality={100} />
-      <div className="absolute inset-0 bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-white bg-opacity-[30] dark:bg-black dark:bg-opacity-[50]"></div>
 
       <div className="absolute mt-[90px] flex w-screen flex-col items-center justify-center gap-4 xs:justify-start sm:mt-[120px]">
         <h1 className='mx-2 text-center text-4xl xs:text-5xl lg:text-6xl'>
