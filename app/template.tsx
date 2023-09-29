@@ -12,7 +12,6 @@ interface PageWrapperProps {
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
   <>
-    <HeroBG />
     <AnimatePresence>
       <SiteHeader />
       <motion.div
@@ -21,6 +20,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
         exit={{ opacity: 2 }}
         transition={{ delay: .25 }}
       >
+        <HeroBG />
         {children}
       </motion.div>
     </AnimatePresence>
