@@ -20,9 +20,6 @@ module.exports = {
       center: true,
     },
     extend: {
-      backgroundImage: {
-        'hero-pattern':  "url('https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png')",
-      },
       colors: {
         heroone: "hsl(var(--heroone))",
         herotwo: "hsl(var(--herotwo))",
